@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:new_app/Counter.dart';
 import 'package:new_app/CounterProvider.dart';
+import 'package:new_app/RestApiWithProvider/loginApp.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const RunningApp());
+  runApp(const LoginApp());
 }
 
 class RunningApp extends StatelessWidget {
